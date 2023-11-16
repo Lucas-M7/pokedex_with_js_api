@@ -88,6 +88,11 @@ h1{
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+    transition: .3s all ease-out;
+}
+
+.pokemon:hover {
+    transform: scale(1.1);
 }
 
 .pokemon .number {
